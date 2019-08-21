@@ -1,0 +1,93 @@
+.contact-container {
+  text-align: center;
+  height: 650px;
+  width: 80%;
+  display: flex;
+  margin: auto;
+  margin-top: 50px;
+  justify-content: space-evenly;
+}
+
+.contact-container h5 {
+  text-align: left;
+  padding-top: 10px;
+  padding-left: 6px;
+}
+
+.contact-container h4 {
+  font-weight: bold;
+}
+
+input[type='text'] {
+  width: 100%;
+  padding: 12px;
+  border: 2px solid #f1abdb;
+  border-radius: 0.67em;
+  box-sizing: border-box;
+  margin-bottom: 5px;
+}
+
+input[type='submit'] {
+  background: transparent;
+  border: 2px solid #000;
+  padding: 8px 15px;
+  font-size: 14px;
+  color: #f1adbd;
+  cursor: pointer;
+  border-radius: 0.67em;
+  -webkit-transition: 0.5s all;
+  margin-top: 25px;
+  margin-bottom: 35px;
+  font-weight: bold;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+input[type='submit']:hover {
+  background-color: #f1abdb;
+  color: white;
+  border: 2px solid #fff;
+}
+
+textarea {
+  width: 100%;
+  border: 2px solid #f1abdb;
+  border-radius: 0.67em;
+  box-sizing: border-box;
+  height: 100px;
+  padding-left: 10px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.left-form {
+  width: 40%;
+}
+
+.right-form {
+  width: 40%;
+}
+
+iframe {
+  width: 100%;
+}
+
+/* ここからはスマホ用のCSS */
+@media (max-width: 768px) {
+  .contact-container {
+    width: 100%;
+    height: 1030px;
+    margin: 10%;
+    flex-direction: column;
+  }
+  .left-form {
+    width: 80%;
+  }
+  .right-form {
+    width: 80%;
+  }
+}

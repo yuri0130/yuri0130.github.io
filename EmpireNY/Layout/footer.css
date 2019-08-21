@@ -1,0 +1,36 @@
+footer {
+  border-top: 1px solid #c0c0c0;
+  height: 100px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+footer p {
+  text-align: center;
+  color: #a9a9a9;
+  font-weight: bold;
+}
+
+footer a {
+  color: black;
+  opacity: 0.6;
+}
+
+footer a:hover {
+  color: #a9a9a9;
+}
+
+.nav {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  z-index: 1;
+}
+
+.nav a {
+  color: #a9a9a9;
+  font-weight: bold;
+  letter-spacing: 0.05em;
+  margin: 0 1em 0 1em;
+  font-size: 20px;
+}

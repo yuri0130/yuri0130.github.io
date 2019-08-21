@@ -1,0 +1,22 @@
+.products-container {
+  margin-top: 26px;
+  text-align: center;
+  background-color: rgb(211, 211, 211, 0.3);
+}
+
+.card {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.row {
+  justify-content: space-evenly;
+}
+
+/* ここからスマホのCSS */
+@media (max-width: 768px) {
+  img {
+    width: 100%;
+    height: auto;
+  }
+}

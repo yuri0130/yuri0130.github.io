@@ -1,0 +1,29 @@
+.container img {
+  width: 40%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.container {
+  padding-bottom: 30px;
+}
+
+#firstpics {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  animation: FadeInOut 4s linear 4s infinite alternate;
+}
+
+#secondpics {
+  animation: FadeInOut 4s linear 4s infinite alternate-reverse;
+}
+
+@keyframes FadeInOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}

@@ -1,0 +1,26 @@
+.row {
+  display: flex;
+}
+
+.service-box ul {
+  padding: unset;
+}
+
+.price {
+  text-align: right !important;
+}
+
+#services {
+  margin-top: 26px;
+}
+
+.service-box {
+  margin-bottom: 20px;
+}
+
+/* ここからスマホのCSS */
+@media (max-width: 768px) {
+  .service-section {
+    text-align: center;
+  }
+}
