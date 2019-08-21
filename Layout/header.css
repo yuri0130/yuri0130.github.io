@@ -9,25 +9,6 @@ header {
   background-color: white;
 }
 
-.title {
-  font-family: 'Lobster', cursive;
-  font-weight: 800;
-  background: #333;
-  background: -webkit-linear-gradient(
-    top,
-    #384853 0%,
-    #5d626b 50%,
-    #303157 51%,
-    #50455f 75%,
-    #483d58 100%
-  );
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  -webkit-background-clip: text;
-  font-size: 53px;
-  padding-bottom: 21px;
-}
-
 .headerbar {
   z-index: 1;
 }
