@@ -56,21 +56,19 @@ header {
   header {
     display: flex;
   }
+  .logo {
+    margin-top: 5px;
+  }
   #container h2 {
     font-size: 20px;
-  }
-  .title {
-    font-size: 37px;
-    padding-right: 23px;
   }
   button {
     justify-content: flex-end;
   }
   #title-container {
+    text-align: left;
     border: none;
-    text-align: right;
-    border: none;
-    width: 100%;
+    margin-left: 10px;
   }
   .bg-light {
     background-color: white !important;
