@@ -1,15 +1,14 @@
 header {
-  border-bottom: 2px solid #c0c0c0;
+  border-bottom: 1px solid #c0c0c0;
   text-align: center;
 }
 
 #title-container {
-  border-bottom: 2px solid #c0c0c0;
+  border-bottom: 1px solid #c0c0c0;
   background-color: white;
 }
 .logo {
   width: 20%;
-  margin-bottom: 5px;
 }
 
 .headerbar {
@@ -69,9 +68,6 @@ header {
     text-align: left;
     border: none;
     margin-left: 10px;
-  }
-  .bg-light {
-    background-color: white !important;
   }
   .is-fixed #navbar-fix {
     opacity: unset;
