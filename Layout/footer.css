@@ -9,7 +9,6 @@ footer {
 footer p {
   text-align: center;
   color: #a9a9a9;
-  font-weight: bold;
 }
 
 footer a {
@@ -29,8 +28,6 @@ footer a:hover {
 
 .nav a {
   color: #a9a9a9;
-  font-weight: bold;
   letter-spacing: 0.05em;
   margin: 0 1em 0 1em;
-  font-size: 20px;
 }

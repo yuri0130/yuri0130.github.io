@@ -22,10 +22,8 @@ header {
 
 .navbar a {
   color: #a9a9a9;
-  font-weight: bold;
   letter-spacing: 0.05em;
   margin: 0 1em 0 1em;
-  font-size: 20px;
 }
 
 .is-fixed #navbar-fix {
