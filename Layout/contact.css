@@ -21,7 +21,7 @@
 input[type='text'] {
   width: 100%;
   padding: 12px;
-  border: 2px solid #f1abdb;
+  border: 2px solid rgb(196, 160, 146);
   border-radius: 0.67em;
   box-sizing: border-box;
   margin-bottom: 5px;
@@ -29,10 +29,10 @@ input[type='text'] {
 
 input[type='submit'] {
   background: transparent;
-  border: 2px solid #000;
+  border: 2px solid rgb(196, 160, 146);
   padding: 8px 15px;
   font-size: 14px;
-  color: #f1adbd;
+  color: black;
   cursor: pointer;
   border-radius: 0.67em;
   -webkit-transition: 0.5s all;
@@ -45,14 +45,14 @@ input[type='submit'] {
 }
 
 input[type='submit']:hover {
-  background-color: #f1abdb;
+  background-color: rgb(196, 160, 146);
   color: white;
   border: 2px solid #fff;
 }
 
 textarea {
   width: 100%;
-  border: 2px solid #f1abdb;
+  border: 2px solid rgb(196, 160, 146);
   border-radius: 0.67em;
   box-sizing: border-box;
   height: 100px;

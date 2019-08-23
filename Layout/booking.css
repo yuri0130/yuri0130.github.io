@@ -44,7 +44,7 @@
 
 input[type='date'],
 [type='time'] {
-  border: 2px solid #f1abdb;
+  border: 2px solid rgb(196, 160, 146);
   border-radius: 0.67em;
   width: 100%;
   padding: 12px;
@@ -73,7 +73,7 @@ input[type='date'],
 
 .modal-textarea {
   width: 100%;
-  border: 2px solid #f1abdb;
+  border: 2px solid rgb(196, 160, 146);
   border-radius: 0.67em;
   box-sizing: border-box;
   height: 100px;

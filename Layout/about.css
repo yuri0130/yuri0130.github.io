@@ -41,18 +41,12 @@
   font-size: x-large;
 }
 
-.about-container h2 {
-  color: #f1adbd !important;
-  -webkit-text-fill-color: unset;
-  opacity: unset;
-}
-
 .about-container {
   margin-top: 65px;
 }
 
 #AboutPage {
-  border-bottom: solid 3px #87cefa;
+  border-bottom: solid 3px rgb(196, 160, 146);
   display: inline-block;
 }
 
@@ -67,7 +61,7 @@ h2 {
 }
 
 .our-container {
-  background-color: #87cefa;
+  background-color: rgb(196, 160, 146);
   margin-top: 65px;
   font-weight: bold;
 }
@@ -79,12 +73,6 @@ h2 {
 
 p {
   text-align: center;
-}
-
-.our-container h2 {
-  color: #f1adbd;
-  -webkit-text-fill-color: unset;
-  opacity: unset;
 }
 
 #about-footer {
