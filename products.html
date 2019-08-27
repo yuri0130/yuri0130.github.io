@@ -48,7 +48,7 @@
               <a class="nav-link" href="services.html">SERVICES</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link appointment" href="#book">BOOK NOW</a>
+              <a class="nav-link appointment" href="#">BOOK NOW</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="products.html">PRODUCTS</a>
@@ -123,11 +123,41 @@
         </div>
       </div>
     </div>
+
+    <div class="book-container" id="book">
+      <div id="booking-wrapper">
+        <div class="booking-header">
+          <h1>ONLINE BOOKING</h1>
+          <a id="modal-close">
+            <i class="fa fa-close" style="font-size:25px"></i>
+          </a>
+        </div>
+
+        <p>
+          Please complete the submission form below to make an appointment!
+        </p>
+        <form>
+          <input type="date" name="date" placeholder="DATE" /><br />
+          <input type="time" name="time" placeholder="TIME" /><br />
+          <input type="text" name="name" placeholder="NAME " /><br />
+          <input type="text" name="phone" placeholder="PHONE" /><br />
+          <input type="text" name="email" placeholder="E-MAIL" /><br />
+          <textarea
+            type="text"
+            class="modal-textarea"
+            name="fname"
+            placeholder="Special instructions"
+          ></textarea>
+          <input type="submit" value="MAKE AN APPOINTMENT" />
+        </form>
+      </div>
+    </div>
+
     <footer id="about-footer">
       <section>
         <nav class="nav justify-content-center" id="navbar-fix">
           <a class="nav-link About" href="index.html#about">会社概要</a>
-          <a class=" nav-link Book appointment" href="#book">WEB予約</a>
+          <a class=" nav-link Book appointment" href="#">WEB予約</a>
           <a class="nav-link Contact" href="index.html#contact">お問い合わせ</a>
         </nav>
 

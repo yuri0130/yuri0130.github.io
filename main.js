@@ -1,4 +1,5 @@
 // When the user scrolls the page, execute myFunction
+
 window.onscroll = function() {
   fixNavBar();
 };
@@ -48,6 +49,7 @@ function fixNavBar() {
 }
 
 $(document).ready(function() {
+  console.log('javascript loaded');
   // put jquery here
   $('.appointment').click(function() {
     $('#book').fadeIn('slow');
