@@ -1,6 +1,8 @@
-.row {
-  display: flex;
-}
+@import 'header.css';
+@import 'container.css';
+@import 'footer.css';
+@import 'products.css';
+@import 'booking.css';
 
 .service-box ul {
   padding: unset;
@@ -14,8 +16,16 @@
   margin-top: 26px;
 }
 
+#services h2 {
+  text-align: center;
+}
+
 .service-box {
   margin-bottom: 20px;
+}
+
+.service-section {
+  margin-top: 30px;
 }
 
 /* ここからスマホのCSS */

@@ -1,11 +1,12 @@
 @import 'header.css';
 @import 'container.css';
 @import 'footer.css';
-@import 'about.css';
 @import 'products.css';
 @import 'services.css';
 @import 'booking.css';
+@import 'contact.css';
 
+/*ここからは全体的なCSS*/
 body,
 html {
   height: 100%;
@@ -15,21 +16,14 @@ html {
   font-family: 'Chakra Petch', sans-serif;
 }
 
+h1 {
+  text-align: center;
+}
+
 h2 {
   color: #333;
-  font-weight: bold;
   padding-top: 20px;
   opacity: 0.5;
-}
-
-#main {
-  padding-bottom: 150px;
-  position: relative;
-}
-
-#container {
-  width: 100%;
-  overflow: hidden;
 }
 
 ul {
@@ -37,10 +31,105 @@ ul {
   width: 100%;
 }
 
+#main {
+  position: relative;
+  width: 80%;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#container {
+  width: 100%;
+  overflow: hidden;
+}
+
+.row {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/*ここからはaboutセクションのCSS*/
+.aboutUs {
+  display: table-cell;
+}
+.box {
+  text-align: center;
+}
+.our-container {
+  height: 400px;
+  margin-top: 50px;
+}
+
+/*ここからはstaffのCSS*/
+
+.h1_title {
+  margin: 0 0 30px;
+}
+
+.h1_title::before,
+.h1_title::after {
+  content: '';
+  display: inline-block;
+  width: 340px;
+  height: 2px;
+  margin: 15px;
+  background-color: rgb(229, 229, 229);
+}
+
+#staffimage {
+  width: 300px;
+  height: 440px;
+}
+
+.staff-container {
+  margin-top: 65px;
+  margin-bottom: 65px;
+}
+
+.parent {
+  width: 300px;
+  height: 440px;
+  overflow: hidden;
+  position: relative;
+}
+
+.parent .caption {
+  font-size: 100%;
+  text-align: center;
+  color: #fff;
+  padding-top: 213px;
+}
+
+.parent .mask {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  opacity: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  -webkit-transition: all 0.4s ease-out;
+  transition: all 0.4s ease-out;
+}
+
+.parent:hover .mask {
+  opacity: 1; /* maskを表示する */
+  -webkit-transform: scale(2); /* 2倍に拡大 */
+  transform: scale(2);
+  cursor: pointer;
+}
+
 /* ここからはスマホ対応CSS  */
 
 @media (max-width: 768px) {
   h2 {
     padding-top: 30px;
+  }
+  .staff-container {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  #staffimage {
+    height: 410px;
   }
 }

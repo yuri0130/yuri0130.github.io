@@ -1,21 +1,8 @@
 .contact-container {
-  text-align: center;
   height: 650px;
   width: 80%;
-  display: flex;
   margin: auto;
   margin-top: 50px;
-  justify-content: space-evenly;
-}
-
-.contact-container h5 {
-  text-align: left;
-  padding-top: 10px;
-  padding-left: 6px;
-}
-
-.contact-container h4 {
-  font-weight: bold;
 }
 
 input[type='text'] {
@@ -28,7 +15,7 @@ input[type='text'] {
 }
 
 input[type='submit'] {
-  background: transparent;
+  background: white;
   border: 2px solid rgb(196, 160, 146);
   padding: 8px 15px;
   font-size: 14px;
@@ -62,14 +49,6 @@ textarea {
 form {
   display: flex;
   flex-direction: column;
-}
-
-.left-form {
-  width: 40%;
-}
-
-.right-form {
-  width: 40%;
 }
 
 iframe {

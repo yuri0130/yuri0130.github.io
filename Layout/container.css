@@ -6,6 +6,7 @@
 
 .container {
   padding-bottom: 30px;
+  max-width: 100%;
 }
 
 #firstpics {

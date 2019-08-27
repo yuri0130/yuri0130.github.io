@@ -21,7 +21,7 @@ header {
 }
 
 .navbar a {
-  color: #a9a9a9;
+  color: rgba(0, 0, 0, 0.5);
   letter-spacing: 0.05em;
   margin: 0 1em 0 1em;
 }
