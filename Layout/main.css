@@ -34,27 +34,29 @@ ul {
 #main {
   position: relative;
   width: 80%;
-  overflow: hidden;
   margin-left: auto;
   margin-right: auto;
 }
 
 #container {
   width: 100%;
-  overflow: hidden;
 }
 
 .row {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  margin-right: 15px;
+  margin-left: 15px;
 }
 
 /*ここからはaboutセクションのCSS*/
 .aboutUs {
-  display: table-cell;
+  display: flex;
+  justify-content: space-between;
 }
 .box {
   text-align: center;
+  margin: 0 10px;
 }
 .our-container {
   height: 400px;
@@ -71,7 +73,7 @@ ul {
 .h1_title::after {
   content: '';
   display: inline-block;
-  width: 340px;
+  width: 35%;
   height: 2px;
   margin: 15px;
   background-color: rgb(229, 229, 229);

@@ -3,6 +3,7 @@
 @import 'footer.css';
 @import 'products.css';
 @import 'booking.css';
+@import 'main.css';
 
 .service-box ul {
   padding: unset;

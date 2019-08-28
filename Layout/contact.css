@@ -1,8 +1,6 @@
 .contact-container {
   height: 650px;
-  width: 80%;
-  margin: auto;
-  margin-top: 50px;
+  padding-top: 50px;
 }
 
 input[type='text'] {
@@ -46,15 +44,6 @@ textarea {
   padding-left: 10px;
 }
 
-form {
-  display: flex;
-  flex-direction: column;
-}
-
-iframe {
-  width: 100%;
-}
-
 /* ここからはスマホ用のCSS */
 @media (max-width: 768px) {
   .contact-container {
@@ -62,11 +51,5 @@ iframe {
     height: 1030px;
     margin: 10%;
     flex-direction: column;
-  }
-  .left-form {
-    width: 80%;
-  }
-  .right-form {
-    width: 80%;
   }
 }

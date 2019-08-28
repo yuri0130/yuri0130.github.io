@@ -38,6 +38,7 @@ header {
   width: 100%;
   opacity: 0.95;
   background-color: white;
+  top: 0;
 }
 
 .sticky-title {
