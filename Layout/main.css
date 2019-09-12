@@ -79,12 +79,10 @@ ul {
   margin-top: 65px;
   margin-bottom: 65px;
 }
-
-.parent {
+#staffimage {
   height: 30rem;
   border-radius: 50%;
 }
-
 /* ここからはレスポンシブ対応CSS  */
 
 /*タブレットサイズ縦*/
