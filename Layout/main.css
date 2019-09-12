@@ -75,22 +75,13 @@ ul {
   background-color: rgb(229, 229, 229);
 }
 
-#staffimage {
-  width: 100%;
-  height: auto;
-}
-
 .staff-container {
   margin-top: 65px;
   margin-bottom: 65px;
 }
 
 .parent {
-  width: 100%;
-  height: auto;
-  overflow: hidden;
-  position: relative;
-  margin-top: 10px;
+  height: 30rem;
   border-radius: 50%;
 }
 
