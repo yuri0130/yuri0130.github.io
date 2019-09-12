@@ -44,7 +44,7 @@ ul {
 
 .row {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   margin-right: 15px;
   margin-left: 15px;
 }
