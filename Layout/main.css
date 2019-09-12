@@ -80,8 +80,8 @@ ul {
   margin-bottom: 65px;
 }
 #staffimage {
-  height: 30rem;
-  border-radius: 50%;
+  height: 20rem;
+  border-radius: 2%;
 }
 /* ここからはレスポンシブ対応CSS  */
 
@@ -101,13 +101,18 @@ ul {
   h2 {
     padding-top: 30px;
   }
-  .staff-container {
-    margin-top: 0;
-    margin-bottom: 0;
-  }
 
+  .container img {
+    width: 48%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
   .h1_title::before,
   .h1_title::after {
     width: 15%;
+  }
+  .parent {
+    width: 50%;
+    margin-top: 10px;
   }
 }
