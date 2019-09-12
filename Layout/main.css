@@ -114,5 +114,6 @@ ul {
   .parent {
     width: 50%;
     margin-top: 10px;
+    margin-left: 5px;
   }
 }
