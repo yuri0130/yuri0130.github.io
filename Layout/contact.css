@@ -45,7 +45,6 @@ textarea {
 @media (max-width: 768px) {
   .contact-container {
     width: 100%;
-    margin: 10%;
     flex-direction: column;
   }
 }
