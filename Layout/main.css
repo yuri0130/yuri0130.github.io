@@ -58,15 +58,11 @@ ul {
   text-align: center;
   margin: 0 10px;
 }
-.our-container {
-  height: 400px;
-  margin-top: 50px;
-}
 
 /*ここからはstaffのCSS*/
 
 .h1_title {
-  margin: 0 0 30px;
+  margin: 30px 0 30px;
 }
 
 .h1_title::before,
@@ -124,6 +120,9 @@ ul {
 /* ここからはスマホ対応CSS  */
 
 @media (max-width: 768px) {
+  h1 {
+    font-size: 1.5rem;
+  }
   h2 {
     padding-top: 30px;
   }
@@ -133,5 +132,9 @@ ul {
   }
   #staffimage {
     height: 410px;
+  }
+  .h1_title::before,
+  .h1_title::after {
+    width: 15%;
   }
 }
