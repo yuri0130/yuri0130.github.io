@@ -1,10 +1,10 @@
-@import 'header.css';
-@import 'container.css';
-@import 'footer.css';
-@import 'products.css';
-@import 'services.css';
-@import 'booking.css';
-@import 'contact.css';
+@import "header.css";
+@import "container.css";
+@import "footer.css";
+@import "products.css";
+@import "services.css";
+@import "booking.css";
+@import "contact.css";
 
 /*ここからは全体的なCSS*/
 body,
@@ -13,7 +13,7 @@ html {
   width: 100%;
   padding: 0;
   margin: 0;
-  font-family: 'Chakra Petch', sans-serif;
+  font-family: "Chakra Petch", sans-serif;
 }
 
 h1 {
@@ -33,7 +33,7 @@ ul {
 
 #main {
   position: relative;
-  width: 80%;
+  width: 90%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -44,7 +44,7 @@ ul {
 
 .row {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   margin-right: 15px;
   margin-left: 15px;
 }
@@ -67,7 +67,7 @@ ul {
 
 .h1_title::before,
 .h1_title::after {
-  content: '';
+  content: "";
   display: inline-block;
   width: 35%;
   height: 2px;
@@ -80,7 +80,7 @@ ul {
   margin-bottom: 65px;
 }
 #staffimage {
-  height: 20rem;
+  height: 16rem;
   border-radius: 2%;
 }
 /* ここからはレスポンシブ対応CSS  */
